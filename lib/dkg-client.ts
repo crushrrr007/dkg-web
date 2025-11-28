@@ -1,6 +1,7 @@
 import type { CommunityNote, DKGPublishResponse } from "./dkg-schema"
 
 const DKG_BASE_URL = process.env.DKG_BASE_URL || "http://localhost:9200"
+const DKG_EXPLORER_URL = process.env.DKG_EXPLORER_URL || "https://dkg-testnet.origintrail.io"
 const DKG_API_KEY = process.env.DKG_API_KEY
 
 export async function publishToDKG(communityNote: CommunityNote): Promise<DKGPublishResponse> {
@@ -68,7 +69,7 @@ export async function publishToDKG(communityNote: CommunityNote): Promise<DKGPub
       success: true,
       ual,
       transactionHash: result.transactionHash || result.txHash || undefined,
-      explorerUrl: result.explorerUrl || `${DKG_BASE_URL}/explore?ual=${encodeURIComponent(ual)}`,
+      explorerUrl: result.explorerUrl || `${DKG_EXPLORER_URL}/explore?ual=${encodeURIComponent(ual)}`,
     }
   } catch (error) {
     console.error("[v0] ========== DKG PUBLISH ERROR ==========")

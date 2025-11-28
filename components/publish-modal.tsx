@@ -188,7 +188,7 @@ export function PublishModal({
                         </a>
                       </Button>
                       <Button asChild className="flex-1">
-                        <Link href={`/topics/${publishResult.ual}`}>View Details</Link>
+                        <Link href={`/topics/${encodeURIComponent(publishResult.ual)}`}>View Details</Link>
                       </Button>
                     </div>
                   </div>
