@@ -239,6 +239,12 @@ export function CommunityNotesList() {
                     </div>
 
                     <div className="flex flex-col gap-2">
+                      <Button size="sm" variant="default" asChild>
+                        <Link href={`/topics/${encodeURIComponent(note.ual)}`}>
+                          <FileText className="h-3.5 w-3.5 mr-1" />
+                          View Details
+                        </Link>
+                      </Button>
                       <Button size="sm" variant="outline" onClick={() => copyUAL(note.ual)}>
                         <Copy className="h-3.5 w-3.5 mr-1" />
                         Copy UAL

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Scale, Clock, CheckCircle2, AlertCircle, Copy, ExternalLink, Trash2, RefreshCw } from "lucide-react"
+import { Scale, Clock, CheckCircle2, AlertCircle, Copy, ExternalLink, Trash2, RefreshCw, FileText } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
 
 interface ActivityEntry {
@@ -226,6 +226,12 @@ function ActivityList({
               </div>
 
               <div className="flex flex-col gap-2">
+                <Button size="sm" variant="default" asChild>
+                  <Link href={`/topics/${encodeURIComponent(entry.ual)}`}>
+                    <FileText className="h-3.5 w-3.5 mr-1" />
+                    View Details
+                  </Link>
+                </Button>
                 <Button size="sm" variant="outline" onClick={() => onCopy(entry.ual)}>
                   <Copy className="h-3.5 w-3.5 mr-1" />
                   Copy

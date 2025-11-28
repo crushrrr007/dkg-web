@@ -37,12 +37,12 @@ export default function Home() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground leading-tight text-balance">
-          Compare Gorkpedia with Wikipedia
+          Compare Grokipedia with Wikipedia
           <span className="block text-primary mt-2">Publish to OriginTrail DKG</span>
         </h1>
 
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed text-pretty">
-          A production-ready tool that analyzes Gorkpedia articles against Wikipedia, detects hallucinations and bias,
+          A production-ready tool that analyzes Grokipedia articles against Wikipedia, detects hallucinations and bias,
           assigns trust scores, and publishes verifiable Community Notes to the decentralized knowledge graph.
         </p>
 
@@ -115,7 +115,7 @@ export default function Home() {
           <ProcessStep
             number="1"
             title="Fetch Content"
-            description="Scrape the Gorkpedia article from the provided URL and fetch the matching Wikipedia article via their free API."
+            description="Scrape the Grokipedia article from the provided URL and fetch the matching Wikipedia article via their free API."
           />
           <ProcessStep
             number="2"
