@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
       itemReviewed: {
         "@type": "CreativeWork",
         name: gorkpediaContent.title,
-        author: "Grokipedia (Grok AI)",
+        author: "Grokipedia (Google AI)",
         datePublished: gorkpediaContent.fetchedAt,
         url: gorkpediaContent.url,
       },

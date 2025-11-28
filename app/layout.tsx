@@ -12,7 +12,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" })
 export const metadata: Metadata = {
   title: "compareDKG - AI Content Verification with DKG",
   description:
-    "Compare Gorkpedia articles with Wikipedia, detect hallucinations using Grok AI, assign trust scores, and publish verifiable Community Notes to OriginTrail DKG.",
+    "Compare Gorkpedia articles with Wikipedia, detect hallucinations using Google AI, assign trust scores, and publish verifiable Community Notes to OriginTrail DKG.",
   generator: "v0.app",
   icons: {
     icon: [

@@ -72,7 +72,7 @@ export function SearchForm() {
               <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
                 <li>Enter any topic you want to verify</li>
                 <li>We'll automatically fetch both Gorkpedia and Wikipedia articles</li>
-                <li>Grok AI compares them and detects hallucinations</li>
+                <li>Google AI compares them and detects hallucinations</li>
               </ul>
             </div>
 
@@ -120,7 +120,7 @@ export function SearchForm() {
               <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
                 <li>Enter a Gorkpedia article URL to analyze</li>
                 <li>We'll automatically fetch the matching Wikipedia article</li>
-                <li>Grok AI compares both and detects hallucinations</li>
+                <li>Google AI compares both and detects hallucinations</li>
               </ul>
             </div>
 

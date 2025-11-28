@@ -9,7 +9,7 @@ export function ArchitectureDiagram() {
         <ArrowRight className="h-5 w-5 text-muted-foreground flex-shrink-0" />
 
         {/* Comparison Engine */}
-        <DiagramBox title="Grok AI Analysis" subtitle="Semantic Comparison" color="primary" large />
+        <DiagramBox title="Google AI Analysis" subtitle="Semantic Comparison" color="primary" large />
         <ArrowRight className="h-5 w-5 text-muted-foreground flex-shrink-0" />
 
         {/* Wikipedia */}

@@ -120,7 +120,7 @@ export default function Home() {
           <ProcessStep
             number="2"
             title="Analyze & Compare"
-            description="Use Grok AI to run semantic similarity, hallucination detection, and segment-level classification with explainability."
+            description="Use Google AI to run semantic similarity, hallucination detection, and segment-level classification with explainability."
           />
           <ProcessStep
             number="3"
@@ -211,7 +211,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            Built with Next.js, Grok AI, and OriginTrail • Open Source
+            Built with Next.js, Google AI, and OriginTrail • Open Source
           </div>
         </div>
       </footer>
